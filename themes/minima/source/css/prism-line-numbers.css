@@ -1,6 +1,7 @@
 pre[class*="language-"].line-numbers {
   position: relative;
-  padding-left: 3em;
+  padding-left: 5rem;
+  margin-bottom: 2rem;
   counter-reset: linenumber;
 }
 

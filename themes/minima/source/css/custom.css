@@ -150,7 +150,7 @@ body.darkmode code:not(pre code) {
 
 /* blockquote */
 blockquote {
-  font-family: 'Microsoft Yahei', '微软雅黑', Helvetica, Arial, 'Hiragino Sans GB', '黑体', sans-serif;
+  font-family: 'Source Serif Variable', 'Source Serif 4', 'Source Serif', Georgia, 'Source Han Serif', '思源宋体', 'Noto Serif SC', 'Noto Serif CJK', 'Times New Roman', Times, 'STSongti-SC', 'PMingLiU', 'NSimSun', 'SimSun', '新宋体', '宋体', serif;
   background-color: rgba(148, 148, 149, 0.08) ;
   margin: 1.5em 0px;
   padding: 1.1em 20px 1px 20px;
@@ -158,7 +158,7 @@ blockquote {
 }
 
 blockquote footer {
-  font-family: 'Microsoft Yahei', '微软雅黑', Helvetica, Arial, 'Hiragino Sans GB', '黑体', sans-serif;
+  font-family: 'Source Serif Variable', 'Source Serif 4', 'Source Serif', Georgia, 'Source Han Serif', '思源宋体', 'Noto Serif SC', 'Noto Serif CJK', 'Times New Roman', Times, 'STSongti-SC', 'PMingLiU', 'NSimSun', 'SimSun', '新宋体', '宋体', serif;
   font-size: 16px;
   padding-bottom: 10px;
   margin-top: -10px;
