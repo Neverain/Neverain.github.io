@@ -1,14 +1,14 @@
 
-<h2>文章列表</h2>
+<h2 class="noindent toleft">文章列表</h2>
 
 <% page.posts.each(function(post) { %>
     <article>
       <div class="row">
 
         <div class="three columns left lit">
-          <p class="bottom"><%- full_date(post.date, 'll') %></p>
+          <p class="bottom noindent"><%- full_date(post.date, 'll') %></p>
         </div>
-        <div class="nine columns left mb-3">
+        <div class="nine columns left mb-3 noindent">
           <a href="<%- url_for(post.path) %>" class="">
             <% if (post.title == "") { %>
               no title

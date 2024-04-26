@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="two columns" style="max-width: 50px">
+  <div class="two columns noindent" style="max-width: 50px">
     <h1 class="mt-2 mode">
       <div onclick=setDarkMode(true) id="darkBtn"><%= theme.switch_dark %></div>
       <div onclick=setDarkMode(false) id="lightBtn" class=hidden><%= theme.switch_light %></div>
@@ -25,19 +25,21 @@
     </h1>
   </div>
 
-  <div class="six columns ml-1">
-    <h1 class="mt-2">
+  <div class="six columns noindent ml-1">
+    <h1 class="mt-2 maintitle">
       <%= theme.title %>
     </h1>
   </div>
 
-  <div class="four columns ml-1" style="text-align: right;">
-    <h5 class="mt-2">留予写字和排字的地方</h5>
+  <div class="four columns noindent ml-1" style="text-align: right;">
+    <h5 class="mt-2 noindent">
+      <%= theme.info %>
+    </h5>
   </div>
 
-  <div class="twelve columns">
+  <div class="twelve columns noindent">
     <div class="row">
-      <div class="nine columns left">
+      <div class="nine columns left noindent">
         <a href="<%= config.root %>">首页</a>
         <% for (name in theme.menu) { %>
           <% if (theme.menu[name]) { %>
@@ -53,6 +55,6 @@
         <% } %>
       </div>
     </div>
-    <hr style="margin-bottom: 2.6rem">
+    <hr style="margin-bottom: .6rem">
   </div>
 </div>

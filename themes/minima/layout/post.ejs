@@ -1,5 +1,5 @@
   <h2><%- page.title %></h2>
 
   <%- page.content%>
-  <p><%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %> — <%- full_date(page.date, 'll') %></p>
+  <p style="text-align: right; font-style: italic; font-size: 92%;"><%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %> ⸻ 最后编辑于 <%- full_date(page.date, 'll') %></p>
   <%- partial('partial/comments') %>
