@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -62,7 +62,7 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: "等距更纱黑体 SC", "Sarasa Mono CL", "Source Code Pro", Monaco, Menlo, Consolas, 'Courier New', Courier, "微软雅黑", monospace !important; 
   font-size: 1em; /* 2 */
 }
 
@@ -105,8 +105,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 1em;
 }
 
 /**
