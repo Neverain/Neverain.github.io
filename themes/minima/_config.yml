@@ -1,22 +1,22 @@
 #title in header
-title: "Neverain's Blog"
+title: "Pluvieuse 雨地"
 
 #main info
 #owner
 owner: "欢迎"
 email: me@moqiyu.eu.org
-info: "Neverain"
+info: "留予写字和排字的地方"
 #description
-desc: "一个自留地性质的博客，主要记录阅读和学习历程用。"
+#desc: ""
 
 #menu
 menu:
-  所有文章: /archives
-  # 关于: /about
+  文章列表: /archives
+  关于我: /about
   # 友链: /links
 
 #index/main page max show posts (in number)
-max_post: 5
+max_post: 6
 
 # Colors use hex color without #
 # Theme color
@@ -32,10 +32,10 @@ footer: true
 placename: Minima
 placelink: https://github.com/adisaktijrs/hexo-theme-minima
 github: https://github.com/Neverain
-# linkedin: https://linkedin.com/in/adisaktijrs
-# twitter: https://twitter.com/adisaktijrs
-# instagram: https://instagram.com/adisaktijrs
-# stackoverflow: https://stackoverflow.com/story/tobiasreithmeier
+# linkedin: 
+# twitter: 
+# instagram: 
+# stackoverflow: 
 
 # Misc
 nanobar: /js/nanobar.min.js
