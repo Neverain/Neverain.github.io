@@ -9,17 +9,17 @@
     }
 %>
 <% if(title) { %>
-   <h3>Posts Related to — <%- title %></h3>
+   <h3>与&nbsp;<&nbsp;<a style="vertical-align: center; color: #808080;"><%- title %>&nbsp;</a>>&nbsp;相关的文章</h3>
 <% } %>
 <% page.posts.each(function(item){ %>
 
   <article>
     <div class="row">
 
-      <div class="three columns left lit">
+      <div class="three columns left lit noindent">
         <p class="bottom"><%- full_date(item.date, 'll') %></p>
       </div>
-      <div class="nine columns left mb-3">
+      <div class="nine columns left mb-3 noindent">
         <a href="<%- url_for(item.path) %>">
           <% if (item.title == "") { %>
             no title
