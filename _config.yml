@@ -5,7 +5,7 @@
 # Site
 title: Pluvieuse 雨地
 subtitle: '|'
-description: '写字且排字'
+description: '一个糟糕的排字工写字的地方'
 keywords:
 author: 朽木荒川
 language: zh-Hans
@@ -44,16 +44,6 @@ post_asset_folder: false
 relative_link: false
 future: true
 syntax_highlighter: prismjs
-highlight:
-  enable: true
-  auto_detect: false
-  line_number: true
-  line_threshold: 0
-  tab_replace: ''
-  exclude_languages:
-    - example
-  wrap: true
-  hljs: false
 prismjs:
   enable: true
   preprocess: true

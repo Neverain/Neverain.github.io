@@ -1,5 +1,12 @@
   <h2><%- page.title %></h2>
 
   <%- page.content%>
-  <p style="text-align: right; font-style: italic; font-size: 92%;"><%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %> ⸻ 最后编辑于 <%- full_date(page.date, 'll') %></p>
+  <hr style="margin-bottom: 1rem;">
+  <div class="seven columns left lit noindent">
+    <p style="font-style: italic;">tags:&nbsp;<&nbsp;<%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %> &nbsp;></p>
+  </div>
+  <div class="five columns left mb-3 noindent">
+    <p style="text-align: right; font-style: italic; font-size: 92%;">⸻ 最后编辑于 <%- full_date(page.date, 'll') %></p>
+  </div>
+  
   <%- partial('partial/comments') %>
