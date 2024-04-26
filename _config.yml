@@ -45,6 +45,7 @@ relative_link: false
 future: true
 syntax_highlighter: prismjs
 highlight:
+  enable: true
   auto_detect: false
   line_number: true
   line_threshold: 0
@@ -54,6 +55,7 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
+  enable: true
   preprocess: true
   line_number: true
   line_threshold: 0
