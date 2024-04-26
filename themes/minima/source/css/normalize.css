@@ -63,7 +63,7 @@ hr {
 
 pre {
   font-family: "等距更纱黑体 SC", "Sarasa Mono CL", "Source Code Pro", Monaco, Menlo, Consolas, 'Courier New', Courier, "微软雅黑", monospace !important; 
-  font-size: 1em; /* 2 */
+  font-size: 0.85em; /* 2 */
 }
 
 /* Text-level semantics
@@ -105,7 +105,7 @@ strong {
 code,
 kbd,
 samp {
-  font-size: 1em;
+  font-size: 0.85em;
 }
 
 /**
