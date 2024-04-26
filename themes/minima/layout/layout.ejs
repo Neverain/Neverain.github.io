@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html lang="<%= config.language %>">
-
 <head>
-
-  <!-- Minima -->
-  <!-- Hexo theme created by @adisaktijrs -->
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-
   <%
   if (!config.author) {
     config.author = ""
   }
-
-  var title = title = config.title;
+  var title = title = '首页';
   if (is_archive()){
-    title = 'All Posts - ' + config.author;
+    title = '文章列表';
+    <!-- title = 'All Posts - ' + config.author; -->
   } else if (is_post()){
     title = page.title;
   } else if (is_page()){
-    title = page.title + ' - ' + config.author;
+    title = page.title;
   } else if (is_tag()){
-    title = 'Posts Related to ' + page.tag;
+    title = '与标签 <' + page.tag + '> 相关的文章';
   }
+  title = title + ' - ' + config.title;
   %>
   <title><%= title %></title>
   <% if (config.sitemap) { %>
