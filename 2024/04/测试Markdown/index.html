@@ -7,7 +7,7 @@
   
   <link rel="canonical" href="http://neverain.github.io/2024/04/%E6%B5%8B%E8%AF%95Markdown/">
   
-  <meta name="description" content="一级标题, 只在首页应用二级标题, 作为居中的主标题三级标题, 居左的主标题四级标题, 居左的副标题五级标题, 被用于居中的文档信息六级标题, 被用于居右的文档信息 杂项Markdown功能测试字体样式斜体 斜体 粗体 粗体 粗斜体 粗斜体  代码块123456:not(pre) &amp;gt; code">
+  <meta name="description" content="一级标题, 只在首页应用二级标题, 作为居中的主标题三级标题, 居左的主标题四级标题, 居左的副标题五级标题, 被用于居中的文档信息六级标题, 被用于居右的文档信息 杂项Markdown功能测试字体样式斜体 斜体 粗体 粗体 粗斜体 粗斜体  代码块:not(pre) &gt; code[class*=&#34;">
   
   
   <meta name="author" content="朽木荒川">
@@ -18,14 +18,14 @@
   <meta property="og:type" content="article" />
   <meta property="og:title" content="测试Markdown - Neverain&#39;s Blog" />
   
-  <meta property="og:description" content="一级标题, 只在首页应用二级标题, 作为居中的主标题三级标题, 居左的主标题四级标题, 居左的副标题五级标题, 被用于居中的文档信息六级标题, 被用于居右的文档信息 杂项Markdown功能测试字体样式斜体 斜体 粗体 粗体 粗斜体 粗斜体  代码块123456:not(pre) &amp;gt; code">
+  <meta property="og:description" content="一级标题, 只在首页应用二级标题, 作为居中的主标题三级标题, 居左的主标题四级标题, 居左的副标题五级标题, 被用于居中的文档信息六级标题, 被用于居右的文档信息 杂项Markdown功能测试字体样式斜体 斜体 粗体 粗体 粗斜体 粗斜体  代码块:not(pre) &gt; code[class*=&#34;">
   
   <meta property="og:url" content="http://neverain.github.io/2024/04/%E6%B5%8B%E8%AF%95Markdown/" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="测试Markdown - Neverain&#39;s Blog">
   
-  <meta name="twitter:description" content="一级标题, 只在首页应用二级标题, 作为居中的主标题三级标题, 居左的主标题四级标题, 居左的副标题五级标题, 被用于居中的文档信息六级标题, 被用于居右的文档信息 杂项Markdown功能测试字体样式斜体 斜体 粗体 粗体 粗斜体 粗斜体  代码块123456:not(pre) &amp;gt; code">
+  <meta name="twitter:description" content="一级标题, 只在首页应用二级标题, 作为居中的主标题三级标题, 居左的主标题四级标题, 居左的副标题五级标题, 被用于居中的文档信息六级标题, 被用于居右的文档信息 杂项Markdown功能测试字体样式斜体 斜体 粗体 粗体 粗斜体 粗斜体  代码块:not(pre) &gt; code[class*=&#34;">
   
   
   
@@ -117,7 +117,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 7.2.0"><link rel="stylesheet" href="/css/prism-okaidia.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"><script src="/js/prism.js"></script>
+<script src="/js/prism-line-numbers.min.js"></script></head>
 
 <body>
   <div class="container">
@@ -201,26 +203,43 @@
 <p><em><strong>粗斜体</strong></em></p>
 <p><em><strong>粗斜体</strong></em></p>
 <hr>
-<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-pseudo">:not</span>(pre) &gt; <span class="selector-tag">code</span><span class="selector-attr">[class*=<span class="string">&quot;language-&quot;</span>]</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0.1em</span> <span class="number">0.3em</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">0.3em</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#db4c69</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#f9f2f4</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
+<h4 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h4><pre class="line-numbers language-CSS"><code class="language-CSS">:not(pre) > code[class*="language-"] {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  color: #db4c69;
+  background: #f9f2f4;
+}
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <hr>
-<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4> <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 仅依据你能同时意欲它成为一项普遍法则的那项准则而行动。</span></span><br><span class="line"><span class="quote">&gt;</span></span><br><span class="line"><span class="quote">&gt; ——康德《道德形而上学奠基》</span></span><br></pre></td></tr></table></figure>
+<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><pre class="line-numbers language-Markdown"><code class="language-Markdown">> 仅依据你能同时意欲它成为一项普遍法则的那项准则而行动。
+>
+> ——康德《道德形而上学奠基》
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <blockquote>
 <p>仅依据你能同时意欲它成为一项普遍法则的那项准则而行动。</p>
 <p>——康德《道德形而上学奠基》</p>
 </blockquote>
-<h4 id="另一种引用"><a href="#另一种引用" class="headerlink" title="另一种引用"></a>另一种引用</h4> <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote 康德, 《道德形而上学奠基》 %&#125;</span><br><span class="line">仅依据你能同时意欲它成为一项普遍法则的那项准则而行动。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="另一种引用"><a href="#另一种引用" class="headerlink" title="另一种引用"></a>另一种引用</h4><pre class="line-numbers language-Markdown"><code class="language-Markdown">{% blockquote 康德, 《道德形而上学奠基》 %}
+仅依据你能同时意欲它成为一项普遍法则的那项准则而行动。
+{% endblockquote %}
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <blockquote><p>仅依据你能同时意欲它成为一项普遍法则的那项准则而行动。</p>
 <footer><strong>康德</strong><cite>《道德形而上学奠基》</cite></footer></blockquote>
 
 <hr>
-<h4 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h4> <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 《纯粹理性批判》</span><br><span class="line"><span class="bullet">2.</span> 《实践理性批判》</span><br><span class="line"><span class="bullet">3.</span> 《判断力批判》</span><br></pre></td></tr></table></figure>
+<h4 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h4><pre class="line-numbers language-Markdown"><code class="language-Markdown">1. 《纯粹理性批判》
+2. 《实践理性批判》
+3. 《判断力批判》
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <ol>
 <li>《纯粹理性批判》</li>
 <li>《实践理性批判》</li>
 <li>《判断力批判》</li>
 </ol>
-<h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h4> <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 《日常生活批判》</span><br><span class="line"><span class="bullet">-</span> 《批判哲学的批判》</span><br><span class="line"><span class="bullet">-</span> 《纯粹现代性批判》</span><br></pre></td></tr></table></figure>
+<h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h4><pre class="line-numbers language-Markdown"><code class="language-Markdown">- 《日常生活批判》
+- 《批判哲学的批判》
+- 《纯粹现代性批判》
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <ul>
 <li>《日常生活批判》</li>
 <li>《批判哲学的批判》</li>
