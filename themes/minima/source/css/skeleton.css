@@ -273,6 +273,7 @@ h5 {
   text-align: center;
   margin-top: 0.618ex;
   margin-bottom: 0.618ex;
+  text-indent: 0 !important;
 }
 
 h6 {
