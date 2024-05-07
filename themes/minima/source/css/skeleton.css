@@ -47,6 +47,9 @@
 .toright {
   text-align: right !important;
 }
+img {
+  text-indent: 0 !important;
+}
 
 .column,
 .columns {
