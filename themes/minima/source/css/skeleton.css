@@ -204,11 +204,8 @@ img {
   }
 }
 
-/* Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
-are based on 10px sizing. So basically 1.5rem = 15px :) */
+/* Base Styles–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE: html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%;
 }
@@ -223,16 +220,14 @@ body {
   color: #222;
 }
 
-/* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/* Typography––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 h1, h2, h3, h4 {
   margin-top: 2ex;
   margin-bottom: 1.5rem;
 }
 
-h1, h2, h3, h4, h6 {
+h1, h2, h3, h4, h5, h6 {
   text-indent: 0 !important;
 }
 
@@ -273,7 +268,6 @@ h5 {
   text-align: center;
   margin-top: 0.618ex;
   margin-bottom: 0.618ex;
-  text-indent: 0 !important;
 }
 
 h6 {
@@ -284,33 +278,6 @@ h6 {
   margin-top: 0.618ex;
   margin-bottom: 0.618ex;
 }
-
-/* Larger than phablet */
-/* @media (min-width: 550px) {
-  h1 {
-    font-size: 5.0rem;
-  }
-
-  h2 {
-    font-size: 4.2rem;
-  }
-
-  h3 {
-    font-size: 3.6rem;
-  }
-
-  h4 {
-    font-size: 3.0rem;
-  }
-
-  h5 {
-    font-size: 2.4rem;
-  }
-
-  h6 {
-    font-size: 1.8rem;
-  }
-} */
 
 p {
   margin-top: 0;
@@ -332,40 +299,7 @@ a:focus:not(.icon) {
   color: #fff;
 }
 
-/* a:hover {
-  background-color: #0FA0CE;
-  transition: to top 200ms ease-out;
-
-}
-
-.link {
-  text-decoration: none;
-  color: inherit;
-  position: relative;
-}
-
-.link:hover {
-  color: inherit;
-}
-
-.link:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 80%;
-  left: -0.1em;
-  right: -0.1em;
-  bottom: 0;
-  transition: top 200ms cubic-bezier(0, .8, .13, 1);
-  background-color: #0FA0CE;
-}
-
-.link:hover:after {
-  top: 0%;
-} */
-
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Buttons–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
 button,
 input[type="submit"],
@@ -584,20 +518,7 @@ fieldset {
   margin-bottom: 1.5rem;
 }
 
-/* pre,
-blockquote,
-dl,
-figure,
-table,
-p,
-ul,
-ol,
-form {
-  margin-bottom: 2.5rem;
-} */
-
-/* Utilities
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Utilities–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
   width: 100%;
   box-sizing: border-box;
@@ -616,8 +537,7 @@ form {
   float: left;
 }
 
-/* Misc
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Misc–––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
@@ -625,8 +545,7 @@ hr {
   border-top: 1px solid #E1E1E1;
 }
 
-/* Clearing
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Clearing–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */
 .container:after,
 .row:after,
@@ -636,8 +555,7 @@ hr {
   clear: both;
 }
 
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Media Queries–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
 Note: The best way to structure the use of media queries is to create the queries
 near the relevant code. For example, if you wanted to change the styles for buttons
